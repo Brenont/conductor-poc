@@ -6,18 +6,36 @@
   --background: #ffffff;
   --foreground: #171717;
   --surface: #f5f5f5;
-  --border: #e5e5e5;
+  --border: #e5e7eb;
   --btn-bg: #171717;
   --btn-fg: #ffffff;
+  --card: #f9f9f9;
+  --card-foreground: #171717;
+  --primary: #171717;
+  --primary-foreground: #ffffff;
+  --muted: #f3f4f6;
+  --muted-foreground: #6b7280;
+  --ring: #171717;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
 }
 
 .dark {
   --background: #0a0a0a;
   --foreground: #ededed;
   --surface: #1a1a1a;
-  --border: #2e2e2e;
+  --border: #2a2a2a;
   --btn-bg: #ededed;
   --btn-fg: #0a0a0a;
+  --card: #111111;
+  --card-foreground: #ededed;
+  --primary: #ededed;
+  --primary-foreground: #0a0a0a;
+  --muted: #1f1f1f;
+  --muted-foreground: #9ca3af;
+  --ring: #ededed;
+  --destructive: #f87171;
+  --destructive-foreground: #0a0a0a;
 }
 
 @theme inline {
@@ -27,6 +45,15 @@
   --color-border: var(--border);
   --color-btn-bg: var(--btn-bg);
   --color-btn-fg: var(--btn-fg);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-ring: var(--ring);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
